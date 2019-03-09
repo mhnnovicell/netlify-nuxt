@@ -20,6 +20,11 @@
           class="button--grey"
         >GitHub</a>
       </div>
+      <nuxt-link to="/about">about</nuxt-link>
+            <nuxt-link to="/home">home</nuxt-link>
+                  <nuxt-link to="/contact">contact</nuxt-link>
+
+
     </div>
   </section>
 </template>
@@ -30,6 +35,14 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+
+   mounted () {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
   }
 }
 </script>

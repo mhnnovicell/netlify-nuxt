@@ -1,5 +1,22 @@
 <template>
   <div>
+    <div>
+  <b-navbar toggleable="lg" type="dark" variant="dark">
+    <b-navbar-brand href="#">NavBar</b-navbar-brand>
+
+    <b-navbar-toggle target="nav_collapse" />
+
+    <b-collapse is-nav id="nav_collapse">
+      <b-navbar-nav>
+<nuxt-link to="/">home</nuxt-link>
+<nuxt-link to="/about">about</nuxt-link>
+<nuxt-link to="/contact">contact</nuxt-link>
+   </b-navbar-nav>
+
+
+    </b-collapse>
+  </b-navbar>
+</div>
     <nuxt />
   </div>
 </template>

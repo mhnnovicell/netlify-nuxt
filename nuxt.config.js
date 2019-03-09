@@ -3,6 +3,13 @@ const pkg = require('./package')
 module.exports = {
   mode: 'universal',
 
+  loading: {
+    color: '#2bf4a1',
+    failedColor: '#bf5050',
+    duration: 2500,
+    loading: true
+  },
+
   /*
   ** Headers of the page
   */
@@ -19,12 +26,11 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
 
   /*
   ** Global CSS
   */
-  css: [],
+  css: ["assets/main.css"],
 
   /*
   ** Plugins to load before mounting the App
@@ -37,8 +43,21 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    'bootstrap-vue/nuxt'
   ],
+
+  bootstrapVue: {
+    componentPlugins: [
+      'Form',
+      'FormCheckbox',
+      'FormInput',
+      'FormRadio'
+    ],
+    directivePlugins: [
+      'Popover'
+    ]
+  },
   /*
   ** Axios module configuration
   */
@@ -53,16 +72,20 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
-      // Run ESLint on save
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
+    // extend(config, ctx) {
+    //   // Run ESLint on save
+    //   if (ctx.isDev && ctx.isClient) {
+    //     config.module.rules.push({
+    //       enforce: 'pre',
+    //       test: /\.(js|vue)$/,
+    //       loader: 'eslint-loader',
+    //       exclude: /(node_modules)/
+    //     })
+    //   }
+    // }
+
+    extractCSS: true,
+    optimizeCSS: true
+
   }
 }

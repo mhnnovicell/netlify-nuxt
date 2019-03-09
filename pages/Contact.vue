@@ -34,7 +34,7 @@ import GitHubAPI from 'vue-github-api'
 Vue.use(VueResource)
 
 // import vue-github-api
-Vue.use(GitHubAPI, { token: '79b73b8389220f8b561fe36a495d13753238d629' })
+Vue.use(GitHubAPI, { token: 'ac4b8848cef2a4daaf5dd98ab9f7e15de0b93f02' })
 
 export default {
   data () {

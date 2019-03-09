@@ -1,13 +1,41 @@
 <template>
-  <div class="container">
-    <p>Repositories grabbed: {{ repositoriesCount }}</p>
-    <NuxtLink to="/">
-      Go to /
-    </NuxtLink>
-  </div>
+<div>
+  <b-container fluid>
+    <b-container>
+    <b-row>
+      <b-col>
+         <b-card
+    v-bind:title="this.myGitHubData.repositories[0].description"
+    v-bind:img-src="this.myGitHubData.repositories[0].owner.avatar_url"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 shadow-lg"
+  >
+    <b-card-text>
+      {{this.myGitHubData.repositories[0].html_url}}
+  </b-card-text>
+    <b-button href="#" variant="primary">Go somewhere</b-button>
+  </b-card>
+      </b-col>
+    </b-row>
+    </b-container>
+  </b-container>
+</div>
 </template>
 
 <script>
+import Vue from 'vue'
+import VueResource from 'vue-resource'
+import GitHubAPI from 'vue-github-api'
+
+// vue-resource is needed too
+Vue.use(VueResource)
+
+// import vue-github-api
+Vue.use(GitHubAPI, { token: '79b73b8389220f8b561fe36a495d13753238d629' })
+
 export default {
   data () {
     return {
@@ -15,7 +43,8 @@ export default {
     }
   },
   mounted: function () {
-    this.GitHubAPI.get('/user/repos', {}, [this.myGitHubData, 'repositories'])
+// from a .vue component
+this.GitHubAPI.get('/users/mninozebra/repos', {}, [this.myGitHubData, 'repositories'])
   },
   computed: {
     repositoriesCount: function () {

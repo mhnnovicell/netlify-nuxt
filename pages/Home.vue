@@ -11,11 +11,3 @@
 export default {
 }
 </script>
-
-<style scoped>
-.container {
-  font-size: 20px;
-  text-align: center;
-  padding-top: 100px;
-}
-</style>

@@ -6,7 +6,7 @@ module.exports = {
   loading: {
     color: '#2bf4a1',
     failedColor: '#bf5050',
-    duration: 2500,
+    duration: 1500,
     loading: true
   },
 
@@ -20,7 +20,10 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fredoka+One|Rubik' }
+
+  ]
   },
 
   /*
@@ -30,7 +33,6 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ["assets/main.css"],
 
   /*
   ** Plugins to load before mounting the App
@@ -47,17 +49,8 @@ module.exports = {
     'bootstrap-vue/nuxt'
   ],
 
-  bootstrapVue: {
-    componentPlugins: [
-      'Form',
-      'FormCheckbox',
-      'FormInput',
-      'FormRadio'
-    ],
-    directivePlugins: [
-      'Popover'
-    ]
-  },
+  css: ["assets/main.scss"],
+
   /*
   ** Axios module configuration
   */

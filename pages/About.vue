@@ -10,7 +10,7 @@
     img-top
     tag="article"
     style="max-width: 20rem;"
-    class="mb-2"
+    class="mb-2 shadow-lg"
   >
     <b-card-text>
       Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -25,7 +25,7 @@
     img-top
     tag="article"
     style="max-width: 20rem;"
-    class="mb-2"
+    class="mb-2 shadow-lg"
   >
     <b-card-text>
       Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -40,7 +40,7 @@
     img-top
     tag="article"
     style="max-width: 20rem;"
-    class="mb-2"
+    class="mb-2 shadow-lg"
   >
     <b-card-text>
       Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -56,7 +56,7 @@
       title="Card title that wraps to a new line"
       img-src="https://placekitten.com/g/400/450"
       img-alt="Image"
-      img-top
+      img-top class="shadow-lg"
     >
       <b-card-text>
         This is a wider card with supporting text below as a natural lead-in to additional content.
@@ -64,7 +64,7 @@
       </b-card-text>
     </b-card>
 
-    <b-card header="Quote">
+    <b-card header="Quote" class="shadow-lg">
       <blockquote class="blockquote mb-0">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <footer class="blockquote-footer">
@@ -81,7 +81,7 @@
       title="Title"
       img-src="https://placekitten.com/500/350"
       img-alt="Image"
-      img-top
+      img-top class="shadow-lg"
     >
       <b-card-text>
         This card has supporting text below as a natural lead-in to additional content.
@@ -89,7 +89,7 @@
       <b-card-text class="small text-muted">Last updated 3 mins ago</b-card-text>
     </b-card>
 
-    <b-card bg-variant="primary" text-variant="white">
+    <b-card bg-variant="primary" text-variant="white" class="shadow-lg">
       <blockquote class="card-blockquote">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <footer>
@@ -98,7 +98,7 @@
       </blockquote>
     </b-card>
 
-    <b-card>
+    <b-card class="shadow-lg">
       <b-card-title>Title</b-card-title>
       <b-card-text>
         This card has supporting text below as a natural lead-in to additional content.
@@ -106,9 +106,9 @@
       <b-card-text class="small text-muted">Last updated 3 mins ago</b-card-text>
     </b-card>
 
-    <b-card img-src="https://picsum.photos/400/400/?image=41" img-alt="Image" overlay />
+    <b-card class="shadow-lg" img-src="https://picsum.photos/400/400/?image=41" img-alt="Image" overlay />
 
-    <b-card img-src="https://picsum.photos/400/200/?image=41" img-alt="Image" img-top>
+    <b-card class="shadow-lg" img-src="https://picsum.photos/400/200/?image=41" img-alt="Image" img-top>
       <b-card-text>
         This is a wider card with supporting text below as a natural lead-in to additional content.
         This card has even longer content than the first.
@@ -132,11 +132,3 @@
 export default {
 }
 </script>
-
-<style scoped>
-.container {
-  font-size: 20px;
-  text-align: center;
-  padding-top: 100px;
-}
-</style>

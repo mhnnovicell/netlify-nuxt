@@ -1,20 +1,31 @@
-
-body{
-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-}
-
-h1, h2, h3, h4, a{
+h1,
+h2,
+h3,
+h4,
+a {
   font-family: 'Fredoka One', cursive;
-
+  color: white;
 }
 
-p, span{
+p,
+span {
   font-family: 'Rubik', sans-serif;
+  color: white;
 }
 
 $enable-shadows: true;
 $primary: #4a0c85;
 $secondary: #2bf4a1;
+
+.fp-slidesNav.fp-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: white;
+}
 
 // Include Bootstrap and BootstrapVue SCSS files
 @import '~bootstrap/scss/bootstrap.scss';

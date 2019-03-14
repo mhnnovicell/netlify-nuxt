@@ -42,14 +42,14 @@ export default {
         menu: '#menu',
         anchors: ['page1', 'page2', 'page3'],
         sectionsColor: [
-          '#4a0c85',
-          '#2bf4a1',
-          '#4a0c85',
-          '#2bf4a1',
-          '#4a0c85',
-          '#2bf4a1',
-          '#4a0c85',
-          '#2bf4a1'
+          '#F5F5F5',
+          '#ffffff',
+          '#F5F5F5',
+          '#ffffff',
+          '#F5F5F5',
+          '#ffffff',
+          '#F5F5F5',
+          '#ffffff'
         ],
         navigation: true,
         showActiveTooltip: true,

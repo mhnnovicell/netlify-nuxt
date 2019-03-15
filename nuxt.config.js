@@ -35,7 +35,7 @@ module.exports = {
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Fredoka+One|Rubik'
+        href: 'https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro'
       }
 
     ]

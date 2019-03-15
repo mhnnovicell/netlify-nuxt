@@ -9,7 +9,16 @@
         data-centered="true"
       >
         <div class="section">
-          <h1>Section 1</h1>
+          <b-container class="bv-example-row">
+            <b-row>
+              <b-col cols="6">
+                <h1>Section 1</h1>
+              </b-col>
+              <b-col cols="6">
+                <h1>Section 1</h1>
+              </b-col>
+            </b-row>
+          </b-container>
         </div>
         <div class="section">
           <h1>Section 2</h1>
@@ -17,13 +26,13 @@
         <div class="section">
           <h1>section 3</h1>
           <div class="slide">
-            <h3>Slide 2.1</h3>
+            <p>Slide 2.1</p>
           </div>
           <div class="slide">
-            <h3>Slide 2.2</h3>
+            <p>Slide 2.2</p>
           </div>
           <div class="slide">
-            <h3>Slide 2.3</h3>
+            <p>Slide 2.3</p>
           </div>
         </div>
       </full-page>

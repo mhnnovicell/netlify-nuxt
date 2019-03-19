@@ -67,7 +67,8 @@ export default {
         fadingEffect: true,
         slidesNavigation: true,
         css3: true,
-        controlArrows: false
+        controlArrows: false,
+        licenseKey: 'aobwH@p8'
       }
     }
   },

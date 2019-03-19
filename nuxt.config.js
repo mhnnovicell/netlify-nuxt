@@ -54,8 +54,7 @@ module.exports = {
    */
   plugins: [{
       src: '~/plugins/fullpage',
-      ssr: false,
-      licensekey: 'aobwH@p8'
+      ssr: false
     }
 
   ],
@@ -99,7 +98,14 @@ module.exports = {
     // }
 
     extractCSS: true,
-    optimizeCSS: true
+    optimizeCSS: true,
+    minimize: true,
+    splitChunks: {
+      chunks: 'all',
+      automaticNameDelimiter: '.',
+      name: undefined,
+      cacheGroups: {}
+    }
 
   }
 }

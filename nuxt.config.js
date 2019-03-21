@@ -55,6 +55,10 @@ module.exports = {
   plugins: [{
       src: '~/plugins/fullpage',
       ssr: false
+    },
+    {
+      src: '~/plugins/vue-parallax',
+      ssr: false
     }
 
   ],

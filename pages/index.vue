@@ -105,7 +105,13 @@
         </div>
         <div class="section">
           <h1>Kontakt</h1>
-          <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+          <form
+            name="contact"
+            action="/"
+            method="POST"
+            data-netlify-recaptcha="true"
+            data-netlify="true"
+          >
             <p>
               <label>
                 Your Name:

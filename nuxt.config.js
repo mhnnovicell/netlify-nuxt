@@ -101,8 +101,8 @@ module.exports = {
     ],
     start_url: "index.html",
     display: "standalone",
-    background_color: "#2bf4a1",
-    theme_color: "#2bf4a1",
+    background_color: "#4a0c85",
+    theme_color: "#4a0c85",
     orientation: "portrait"
   },
 

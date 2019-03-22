@@ -99,7 +99,6 @@ module.exports = {
         type: "image/png"
       }
     ],
-    start_url: "index.html",
     display: "fullscreen",
     background_color: "#4a0c85",
     theme_color: "#4a0c85",

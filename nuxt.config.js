@@ -100,7 +100,7 @@ module.exports = {
       }
     ],
     start_url: "index.html",
-    display: "standalone",
+    display: "fullscreen",
     background_color: "#4a0c85",
     theme_color: "#4a0c85",
     orientation: "portrait"

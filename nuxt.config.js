@@ -73,6 +73,39 @@ module.exports = {
     'bootstrap-vue/nuxt'
   ],
 
+  manifest: {
+    name: 'MIKKELRAEV',
+    lang: 'da',
+    short_name: 'MIKKELRAEV',
+    icons: [{
+        src: "/android-chrome-144x144.png",
+        sizes: "144x144",
+        type: "image/png"
+
+      },
+      {
+        src: "/android-chrome-144x144.png",
+        sizes: "192x192",
+        type: "image/png"
+      },
+      {
+        src: "/android-chrome-144x144.png",
+        sizes: "384x384",
+        type: "image/png"
+      },
+      {
+        src: "/android-chrome-144x144.png",
+        sizes: "512x512",
+        type: "image/png"
+      }
+    ],
+    start_url: "index.html",
+    display: "standalone",
+    background_color: "#f5f5f5",
+    theme_color: "#f5f5f5",
+    orientation: "portrait"
+  },
+
   css: ["assets/main.scss"],
 
   /*

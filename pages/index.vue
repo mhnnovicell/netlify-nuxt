@@ -101,6 +101,9 @@
           </b-container>
         </div>
         <div class="section">
+          <h1>Udtalelser</h1>
+        </div>
+        <div class="section">
           <h1>Kontakt</h1>
         </div>
       </full-page>

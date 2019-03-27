@@ -107,33 +107,25 @@
           <h1>Kontakt</h1>
           <form
             name="contact"
-            action="/"
-            method="POST"
-            data-netlify-recaptcha="true"
-            data-netlify="true"
+            action="/thank-you"
+            netlify-honeypot="bot-field"
+            method="post"
+            netlify
           >
-            <p>
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden">
               <label>
-                Your Name:
-                <input type="text" name="name">
+                Don’t fill this out:
+                <input name="bot-field">
               </label>
             </p>
-            <p>
-              <label>
-                Your Email:
-                <input type="email" name="email">
-              </label>
-            </p>
-
-            <p>
-              <label>
-                Message:
-                <textarea name="message"></textarea>
-              </label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
+            <label class="form-label" for="name">Name:</label>
+            <input class="form-field" name="name" id="name">
+            <label class="form-label" for="email">Email:</label>
+            <input class="form-field" name="email" id="email">
+            <label class="form-label" for="message">Message:</label>
+            <textarea class="form-field" name="message" id="message"></textarea>
+            <input class="form-button" type="submit" value="Send message">
           </form>
         </div>
       </full-page>
@@ -146,6 +138,11 @@
 
 <script>
 export default {
+  methods: {
+    updatePanelist(ev) {
+      this.currentPanelist = ev.target.value
+    }
+  },
   data() {
     return {
       options: {
@@ -170,7 +167,9 @@ export default {
         css3: true,
         controlArrows: false,
         licenseKey: 'aobwH@p8'
-      }
+      },
+      panelists: ['Evan You', 'Chris Fritz'],
+      currentPanelist: 'Evan You'
     }
   },
 

@@ -105,7 +105,7 @@
         </div>
         <div class="section">
           <h1>Kontakt</h1>
-          <form name="contact" action="/" netlify-honeypot="bot-field" method="post" netlify>
+          <form name="contact" action="/thanks" netlify-honeypot="bot-field" method="post" netlify>
             <input type="hidden" name="form-name" value="contact">
             <p class="hidden">
               <label>
@@ -132,11 +132,6 @@
 
 <script>
 export default {
-  methods: {
-    updatePanelist(ev) {
-      this.currentPanelist = ev.target.value
-    }
-  },
   data() {
     return {
       options: {
@@ -161,9 +156,7 @@ export default {
         css3: true,
         controlArrows: false,
         licenseKey: 'aobwH@p8'
-      },
-      panelists: ['Evan You', 'Chris Fritz'],
-      currentPanelist: 'Evan You'
+      }
     }
   },
 

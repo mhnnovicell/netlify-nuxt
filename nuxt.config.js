@@ -36,6 +36,10 @@ module.exports = {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css'
       }
 
     ]
@@ -131,6 +135,7 @@ module.exports = {
     //       exclude: /(node_modules)/
     //     })
     //   }
+
     // }
 
     extractCSS: true,
@@ -141,7 +146,9 @@ module.exports = {
       automaticNameDelimiter: '.',
       name: undefined,
       cacheGroups: {}
-    }
+    },
+    transpile: [/^vue2-google-maps($|\/)/]
+
 
   }
 }

@@ -36,6 +36,11 @@ $secondary: #2bf4a1;
   display: none;
 }
 
+.devicon {
+  width: 5rem;
+  height: 5rem;
+}
+
 
 // Include Bootstrap and BootstrapVue SCSS files
 @import '~bootstrap/scss/bootstrap.scss';

@@ -34,11 +34,13 @@ module.exports = {
         href: '/favicon.ico'
       },
       {
-        rel: 'stylesheet',
+        rel: 'preload',
+        as: 'style',
         href: 'https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro'
       },
       {
-        rel: 'stylesheet',
+        rel: 'preload',
+        as: 'style',
         href: 'https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css'
       }
 

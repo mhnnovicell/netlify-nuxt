@@ -79,6 +79,11 @@ module.exports = {
     'bootstrap-vue/nuxt'
   ],
 
+  bootstrapVue: {
+    componentPlugins: ['Layout', 'Tabs', 'Button', 'Image'],
+    directivePlugins: []
+  },
+
   manifest: {
     name: 'MIKKELRAEV',
     lang: 'da',
@@ -140,6 +145,7 @@ module.exports = {
 
     // }
 
+    analyze: true,
     extractCSS: true,
     optimizeCSS: true,
     minimize: true,

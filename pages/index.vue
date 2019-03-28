@@ -315,33 +315,7 @@
                 <input class="form-button" type="submit" value="Send message">
               </form>
             </b-col>
-            <b-col cols="8">
-              <GmapMap
-                :center="{lat:56.144849, lng:10.187440}"
-                :zoom="15"
-                map-type-id="terrain"
-                style="width: 50vw; height: 50vh"
-                :options="{
-   zoomControl: true,
-   mapTypeControl: false,
-   scaleControl: false,
-   streetViewControl: false,
-   rotateControl: false,
-   fullscreenControl: false,
-   disableDefaultUi: false,
-   backgroundColor: '#e9e9e9'
- }"
-              >
-                <GmapMarker
-                  :key="index"
-                  v-for="(m, index) in markers"
-                  :position="{ lat: parseFloat(marker.latitude), lng: parseFloat(marker.longitude) }"
-                  :clickable="true"
-                  :draggable="true"
-                  @click="center=m.position"
-                />
-              </GmapMap>
-            </b-col>
+            <b-col cols="8"></b-col>
           </b-row>
         </div>
       </full-page>
@@ -353,36 +327,6 @@
 </template>
 
 <script>
-import Vue from 'vue'
-
-import * as VueGoogleMaps from 'vue2-google-maps'
-import GmapMarker from 'vue2-google-maps/src/components/marker.js'
-Vue.component('GmapMarker', GmapMarker)
-
-Vue.use(VueGoogleMaps, {
-  load: {
-    key: 'AIzaSyD3qBPinV1Wz3zz6o935XK19MAdIZQzoks',
-    libraries: 'places' // This is required if you use the Autocomplete plugin
-    // OR: libraries: 'places,drawing'
-    // OR: libraries: 'places,drawing,visualization'
-    // (as you require)
-
-    //// If you want to set the version, you can do so:
-    // v: '3.26',
-  },
-
-  //// If you intend to programmatically custom event listener code
-  //// (e.g. `this.$refs.gmap.$on('zoom_changed', someFunc)`)
-  //// instead of going through Vue templates (e.g. `<GmapMap @zoom_changed="someFunc">`)
-  //// you might need to turn this on.
-  // autobindAllEvents: false,
-
-  //// If you want to manually install components, e.g.
-  //// import {GmapMarker} from 'vue2-google-maps/src/components/marker'
-  //// Vue.component('GmapMarker', GmapMarker)
-  //// then disable the following:
-  installComponents: true
-})
 export default {
   data() {
     return {

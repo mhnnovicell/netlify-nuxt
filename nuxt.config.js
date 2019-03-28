@@ -111,7 +111,7 @@ module.exports = {
     orientation: "portrait"
   },
 
-  css: ["assets/main.scss"],
+  css: ["~/assets/main.scss"],
 
   /*
    ** Axios module configuration

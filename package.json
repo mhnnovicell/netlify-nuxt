@@ -19,6 +19,7 @@
     "bootstrap-vue": "^2.0.0-rc.14",
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0",
+    "nuxt-netlify-http2-server-push": "^0.1.2",
     "vue-fullpage.js": "^0.1.2",
     "vue-github-api": "^0.1.7",
     "vue-googlemaps": "^0.1.2",

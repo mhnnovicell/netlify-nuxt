@@ -31,7 +31,7 @@ module.exports = {
     link: [{
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/favicon.ico'
+        href: '/logo/favicon.ico'
       },
       {
         rel: 'preload',
@@ -59,13 +59,18 @@ module.exports = {
    ** Plugins to load before mounting the App
    */
   plugins: [{
+      src: '~/plugins/LazyLoadDirective',
+      ssr: false
+    },
+    {
       src: '~/plugins/fullpage',
       ssr: false
     },
     {
       src: '~/plugins/vue-parallax',
       ssr: false
-    }
+    },
+
 
   ],
 
@@ -88,23 +93,23 @@ module.exports = {
     lang: 'da',
     short_name: 'MIKKELRAEV',
     icons: [{
-        src: "/android-chrome-144x144.png",
+        src: "/logo/android-chrome-144x144.png",
         sizes: "144x144",
         type: "image/png"
 
       },
       {
-        src: "/android-chrome-144x144.png",
+        src: "/logo/android-chrome-144x144.png",
         sizes: "192x192",
         type: "image/png"
       },
       {
-        src: "/android-chrome-144x144.png",
+        src: "/logo/android-chrome-144x144.png",
         sizes: "384x384",
         type: "image/png"
       },
       {
-        src: "/android-chrome-144x144.png",
+        src: "/logo/android-chrome-144x144.png",
         sizes: "512x512",
         type: "image/png"
       }
@@ -143,6 +148,23 @@ module.exports = {
     //   }
 
     // }
+
+    extend(config, ctx) {
+      const vueLoader = config.module.rules.find(rule => rule.loader === 'vue-loader')
+      vueLoader.options.transformAssetUrls = {
+        video: ['src', 'poster'],
+        source: 'src',
+        img: 'src',
+        image: 'xlink:href',
+        'b-img': 'src',
+        'b-img-lazy': ['src', 'blank-src'],
+        'b-card': 'img-src',
+        'b-card-img': 'img-src',
+        'b-card-img-lazy': ['src', 'blank-src'],
+        'b-carousel-slide': 'img-src',
+        'b-embed': 'src'
+      }
+    },
 
     analyze: true,
     extractCSS: true,

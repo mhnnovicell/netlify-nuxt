@@ -17,15 +17,20 @@
                 <b-button variant="secondary">Primary</b-button>
               </b-col>
               <b-col md="8" cols="6" class="p-5">
-                <parallax-container>
+                <ImageItem
+                  class="article-item__image img-fluid"
+                  :source="'/mikkel-edited-smaller.png'"
+                />
+                <!-- <parallax-container>
                   <parallax-element :parallaxStrength="-3" :type="'translation'">
                     <b-img-lazy
-                      fluid
-                      src="/img/mikkel-edited-smaller.png"
+                      src="~/assets/img/mikkel-edited-smaller.png"
+                      class="article-item__image img-fluid"
+                      :source="'/mikkel-edited-smaller.png'"
                       alt="Mikkel Hornbech Nielsen"
                     />
                   </parallax-element>
-                </parallax-container>
+                </parallax-container> -->
               </b-col>
             </b-row>
           </b-container>
@@ -228,7 +233,11 @@
                 <b-col md="6" cols="6" class="p-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-img-lazy fluid src="/img/beeroclock.png" alt="Mikkel Hornbech Nielsen"/>
+                      <b-img-lazy
+                        fluid
+                        src="~/assets/img/beeroclock.png"
+                        alt="Mikkel Hornbech Nielsen"
+                      />
                     </parallax-element>
                   </parallax-container>
                 </b-col>
@@ -244,7 +253,11 @@
                 <b-col md="6" cols="6" class="p-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-img-lazy fluid src="/img/animal-info.png" alt="Mikkel Hornbech Nielsen"/>
+                      <b-img-lazy
+                        fluid
+                        src="~/assets/img/animal-info.png"
+                        alt="Mikkel Hornbech Nielsen"
+                      />
                     </parallax-element>
                   </parallax-container>
                 </b-col>
@@ -260,7 +273,11 @@
                 <b-col md="6" cols="6" class="p-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-img-lazy fluid src="/img/asiento.png" alt="Mikkel Hornbech Nielsen"/>
+                      <b-img-lazy
+                        fluid
+                        src="~/assets/img/asiento.png"
+                        alt="Mikkel Hornbech Nielsen"
+                      />
                     </parallax-element>
                   </parallax-container>
                 </b-col>
@@ -277,7 +294,11 @@
                 <b-col md="6" cols="6" class="p-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-img-lazy fluid src="/img/skatten.png" alt="Mikkel Hornbech Nielsen"/>
+                      <b-img-lazy
+                        fluid
+                        src="~/assets/img/skatten.png"
+                        alt="Mikkel Hornbech Nielsen"
+                      />
                     </parallax-element>
                   </parallax-container>
                 </b-col>
@@ -327,7 +348,18 @@
 </template>
 
 <script>
+import Vue from 'vue'
+
+import LazyLoadDirective from '@/plugins/LazyLoadDirective'
+Vue.directive('lazyload', LazyLoadDirective)
+
+import ImageItem from '@/components/ImageItem'
+
 export default {
+  components: {
+    ImageItem
+  },
+
   data() {
     return {
       options: {

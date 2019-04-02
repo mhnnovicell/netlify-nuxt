@@ -17,20 +17,19 @@
                 <b-button variant="secondary">Primary</b-button>
               </b-col>
               <b-col md="8" cols="6" class="p-5">
-                <ImageItem
-                  class="article-item__image img-fluid"
-                  :source="'/mikkel-edited-smaller.png'"
-                />
-                <!-- <parallax-container>
+                <!-- <ImageItem
+                  class="article-item__image"
+                  :source="'assets/img/mikkel-edited-smaller.png'"
+                />-->
+                <parallax-container>
                   <parallax-element :parallaxStrength="-3" :type="'translation'">
                     <b-img-lazy
+                      fluid
                       src="~/assets/img/mikkel-edited-smaller.png"
-                      class="article-item__image img-fluid"
-                      :source="'/mikkel-edited-smaller.png'"
                       alt="Mikkel Hornbech Nielsen"
                     />
                   </parallax-element>
-                </parallax-container> -->
+                </parallax-container>
               </b-col>
             </b-row>
           </b-container>

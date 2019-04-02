@@ -34,12 +34,12 @@ module.exports = {
         href: '/logo/favicon.ico'
       },
       {
-        rel: 'preload',
+        rel: 'prefetch',
         as: 'style',
         href: 'https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro'
       },
       {
-        rel: 'preload',
+        rel: 'prefetch',
         as: 'style',
         href: 'https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css'
       }
@@ -80,7 +80,8 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/pwa',
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    'nuxt-purgecss'
   ],
 
   bootstrapVue: {

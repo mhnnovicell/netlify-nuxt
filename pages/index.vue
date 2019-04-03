@@ -315,13 +315,13 @@
         <div class="section">
           <b-container fluid>
             <b-row>
-              <b-col cols="12" class="p-5">
+              <b-col md="12" cols="12" class="py-md-5 px-md-5">
                 <h1>Udtalelser</h1>
               </b-col>
             </b-row>
             <div class="slide">
               <b-row>
-                <b-col cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>Asiento</h1>
                   <p class="font-italic">
                     "Mikkel har rigtig god forretningsmæssig forståelse for system- og platform sammenhænge i forbindelse med
@@ -330,7 +330,7 @@
                     perspektiv. Mit samarbejde med Mikkel giver således kun grund til en god anbefaling"
                   </p>
                 </b-col>
-                <b-col md="6" cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <b-card
@@ -353,7 +353,7 @@
             </div>
             <div class="slide">
               <b-row>
-                <b-col cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>House of Heroes</h1>
                   <p class="font-italic">
                     "Mikkel har udviklet min hjemmeside www.houseofheroes.dk fra start til slut. Jeg var specielt glad for
@@ -364,7 +364,7 @@
                     ønsker en flot og funktionel, professionel hjemmeside."
                   </p>
                 </b-col>
-                <b-col md="6" cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <b-card-img-lazy
@@ -389,11 +389,11 @@
             </div>
             <div class="slide">
               <b-row>
-                <b-col cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>Karina Graabaek</h1>
                   <p class="font-italic">""</p>
                 </b-col>
-                <b-col md="6" cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <b-card

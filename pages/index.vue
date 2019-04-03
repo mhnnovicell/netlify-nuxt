@@ -8,6 +8,7 @@
         data-percentage="80"
         data-centered="true"
       >
+        <!-- Om side -->
         <div class="section">
           <b-container fluid>
             <b-row>
@@ -34,14 +35,16 @@
             </b-row>
           </b-container>
         </div>
+
+        <!-- Evner -->
         <div class="section">
           <b-container fluid>
             <b-row>
-              <b-col cols="4" class="m-md-auto p-md-5">
+              <b-col md="4" cols="12" class="m-md-auto p-md-5">
                 <h1>Evner</h1>
                 <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
               </b-col>
-              <b-col cols="8" class="p-5">
+              <b-col md="8" cols="12" class="p-5">
                 <b-tabs content-class="mt-3">
                   <b-tab lazy title="web" active>
                     <p>I'm the first fading tab</p>
@@ -214,17 +217,19 @@
             </b-row>
           </b-container>
         </div>
+
+        <!-- Projekter -->
         <div class="section">
           <b-container fluid>
             <b-row>
-              <b-col cols="12" class="p-5">
+              <b-col class="p-5">
                 <h1>Projekter</h1>
               </b-col>
             </b-row>
 
             <div class="slide beeroclock-slide">
               <b-row>
-                <b-col cols="6" class="p-5">
+                <b-col cols="6" md="6" class="p-5">
                   <h1>BeerOClock</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
                   <b-button variant="secondary">Primary</b-button>
@@ -244,7 +249,7 @@
             </div>
             <div class="slide">
               <b-row>
-                <b-col cols="6" class="p-5">
+                <b-col md="6" cols="12" class="p-5">
                   <h1>Animal Info App</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
                   <b-button variant="secondary">Primary</b-button>
@@ -305,6 +310,8 @@
             </div>
           </b-container>
         </div>
+
+        <!-- Udtalelser -->
         <div class="section">
           <b-container fluid>
             <b-row>
@@ -409,6 +416,8 @@
             </div>
           </b-container>
         </div>
+
+        <!-- Kontakt -->
         <div class="section">
           <h1>Kontakt</h1>
           <b-row>

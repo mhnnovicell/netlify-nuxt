@@ -80,8 +80,7 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/pwa',
-    'bootstrap-vue/nuxt',
-    'nuxt-purgecss'
+    'bootstrap-vue/nuxt'
   ],
 
   bootstrapVue: {
@@ -168,7 +167,6 @@ module.exports = {
     },
 
     analyze: true,
-    extractCSS: true,
     optimizeCSS: true,
     minimize: true,
     splitChunks: {

@@ -11,12 +11,12 @@
         <div class="section">
           <b-container fluid>
             <b-row>
-              <b-col md="4" cols="6" class="m-auto p-5">
+              <b-col md="4" cols="12" class="m-auto p-5">
                 <h1>Om</h1>
                 <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
                 <b-button variant="secondary">Primary</b-button>
               </b-col>
-              <b-col md="8" cols="6" class="p-5">
+              <b-col md="8" cols="12" class="p-5">
                 <!-- <ImageItem
                   class="article-item__image"
                   :source="'assets/img/mikkel-edited-smaller.png'"

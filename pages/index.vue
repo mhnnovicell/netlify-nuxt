@@ -232,16 +232,22 @@
                 <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>BeerOClock</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
-                  <b-button variant="secondary">Primary</b-button>
+                  <b-button
+                    target="_blank"
+                    href="https://beeroclock.nozebrahosting.dk/"
+                    variant="secondary"
+                  >Se mere</b-button>
                 </b-col>
                 <b-col md="6" cols="12" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-img-lazy
-                        fluid
-                        src="~/assets/img/beeroclock.png"
-                        alt="Mikkel Hornbech Nielsen"
-                      />
+                      <a target="_blank" href="https://beeroclock.nozebrahosting.dk/">
+                        <b-img-lazy
+                          fluid
+                          src="~/assets/img/beeroclock.png"
+                          alt="Mikkel Hornbech Nielsen"
+                        />
+                      </a>
                     </parallax-element>
                   </parallax-container>
                 </b-col>
@@ -252,16 +258,22 @@
                 <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>Animal Info App</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
-                  <b-button variant="secondary">Primary</b-button>
+                  <b-button
+                    target="_blank"
+                    href="http://animal-info-app.mikkelraev.dk/"
+                    variant="secondary"
+                  >Se mere</b-button>
                 </b-col>
                 <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-img-lazy
-                        fluid
-                        src="~/assets/img/animal-info.png"
-                        alt="Mikkel Hornbech Nielsen"
-                      />
+                      <a href="http://animal-info-app.mikkelraev.dk/" target="_blank">
+                        <b-img-lazy
+                          fluid
+                          src="~/assets/img/animal-info.png"
+                          alt="Mikkel Hornbech Nielsen"
+                        />
+                      </a>
                     </parallax-element>
                   </parallax-container>
                 </b-col>
@@ -272,16 +284,14 @@
                 <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>Asiento</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
-                  <b-button variant="secondary">Primary</b-button>
+                  <b-button target="_blank" href="http://asiento.dk/" variant="secondary">Se mere</b-button>
                 </b-col>
                 <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-img-lazy
-                        fluid
-                        src="~/assets/img/asiento.png"
-                        alt="Mikkel Hornbech Nielsen"
-                      />
+                      <a href="http://asiento.dk/" target="_blank">
+                        <b-img-lazy fluid src="~/assets/img/asiento.png" alt="Asiento"/>
+                      </a>
                     </parallax-element>
                   </parallax-container>
                 </b-col>
@@ -293,16 +303,22 @@
                 <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>Raadtilskatten</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
-                  <b-button variant="secondary">Primary</b-button>
+                  <b-button
+                    target="_blank"
+                    href="http://raadtilskatten.dk/"
+                    variant="secondary"
+                  >Se mere</b-button>
                 </b-col>
                 <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-img-lazy
-                        fluid
-                        src="~/assets/img/skatten.png"
-                        alt="Mikkel Hornbech Nielsen"
-                      />
+                      <a href="http://raadtilskatten.dk/" target="_blank">
+                        <b-img-lazy
+                          fluid
+                          src="~/assets/img/skatten.png"
+                          alt="Mikkel Hornbech Nielsen"
+                        />
+                      </a>
                     </parallax-element>
                   </parallax-container>
                 </b-col>
@@ -420,10 +436,17 @@
         <!-- Kontakt -->
         <div class="section">
           <b-container fluid>
-            <h1>Kontakt</h1>
+            <b-row>
+              <b-col md="12" cols="12" class="py-md-5 px-md-5">
+                <h1>Kontakt</h1>
+              </b-col>
+            </b-row>
             <b-row>
               <b-col cols="12" md="4" class="py-md-5 px-md-5">
-                <form
+                <b-form
+                  @submit="onSubmit"
+                  @reset="onReset"
+                  v-if="show"
                   name="contact"
                   action="/thanks"
                   netlify-honeypot="bot-field"
@@ -437,14 +460,37 @@
                       <input name="bot-field">
                     </label>
                   </p>
-                  <label class="form-label" for="name">Name:</label>
-                  <input class="form-field" name="name" id="name">
-                  <label class="form-label" for="email">Email:</label>
-                  <input class="form-field" name="email" id="email">
-                  <label class="form-label" for="message">Message:</label>
-                  <textarea class="form-field" name="message" id="message"></textarea>
-                  <input class="form-button" type="submit" value="Send message">
-                </form>
+                  <b-form-group id="input-group-1" label="Email adresse:" label-for="input-1">
+                    <b-form-input
+                      id="input-1"
+                      v-model="form.email"
+                      type="email"
+                      required
+                      placeholder="Enter email"
+                    ></b-form-input>
+                  </b-form-group>
+
+                  <b-form-group id="input-group-2" label="Dit navn:" label-for="input-2">
+                    <b-form-input
+                      id="input-2"
+                      v-model="form.name"
+                      required
+                      placeholder="Enter name"
+                    ></b-form-input>
+                  </b-form-group>
+                  <b-form-group id="input-group-2" label="Din besked:" label-for="input-2">
+                    <b-form-textarea
+                      id="textarea-auto-height"
+                      v-model="text"
+                      placeholder="Enter something..."
+                      rows="3"
+                      max-rows="8"
+                    ></b-form-textarea>
+                  </b-form-group>
+
+                  <b-button type="submit" variant="secondary">Submit</b-button>
+                  <b-button type="reset" variant="primary">Reset</b-button>
+                </b-form>
               </b-col>
               <b-col cols="12" md="8" class="py-md-5 px-md-5"></b-col>
             </b-row>
@@ -495,7 +541,24 @@ export default {
         css3: true,
         controlArrows: false,
         licenseKey: 'aobwH@p8'
-      }
+      },
+
+      text: '',
+
+      form: {
+        email: '',
+        name: '',
+        food: null,
+        checked: []
+      },
+      foods: [
+        { text: 'Select One', value: null },
+        'Carrots',
+        'Beans',
+        'Tomatoes',
+        'Corn'
+      ],
+      show: true
     }
   },
 
@@ -505,6 +568,26 @@ export default {
 
       setTimeout(() => this.$nuxt.$loading.finish(), 500)
     })
+  },
+
+  methods: {
+    onSubmit(evt) {
+      evt.preventDefault()
+      alert(JSON.stringify(this.form))
+    },
+    onReset(evt) {
+      evt.preventDefault()
+      // Reset our form values
+      this.form.email = ''
+      this.form.name = ''
+      this.form.food = null
+      this.form.checked = []
+      // Trick to reset/clear native browser form validation state
+      this.show = false
+      this.$nextTick(() => {
+        this.show = true
+      })
+    }
   }
 }
 </script>

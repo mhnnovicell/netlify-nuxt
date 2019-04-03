@@ -84,7 +84,7 @@ module.exports = {
   ],
 
   bootstrapVue: {
-    componentPlugins: ['Layout', 'Tabs', 'Button', 'Image', 'Card'],
+    componentPlugins: ['Layout', 'Tabs', 'Button', 'Image', 'Card', 'Form', 'FormInput', 'FormGroup', 'FormTextarea'],
     directivePlugins: []
   },
 

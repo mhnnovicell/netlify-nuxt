@@ -222,19 +222,19 @@
         <div class="section">
           <b-container fluid>
             <b-row>
-              <b-col class="p-5">
+              <b-col md="12" cols="12" class="py-md-5 px-md-5">
                 <h1>Projekter</h1>
               </b-col>
             </b-row>
 
             <div class="slide beeroclock-slide">
               <b-row>
-                <b-col cols="6" md="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>BeerOClock</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
                   <b-button variant="secondary">Primary</b-button>
                 </b-col>
-                <b-col md="6" cols="6" class="p-5">
+                <b-col md="6" cols="12" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <b-img-lazy
@@ -249,12 +249,12 @@
             </div>
             <div class="slide">
               <b-row>
-                <b-col md="6" cols="12" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>Animal Info App</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
                   <b-button variant="secondary">Primary</b-button>
                 </b-col>
-                <b-col md="6" cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <b-img-lazy
@@ -269,12 +269,12 @@
             </div>
             <div class="slide">
               <b-row>
-                <b-col cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>Asiento</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
                   <b-button variant="secondary">Primary</b-button>
                 </b-col>
-                <b-col md="6" cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <b-img-lazy
@@ -290,12 +290,12 @@
 
             <div class="slide">
               <b-row>
-                <b-col cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>Raadtilskatten</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
                   <b-button variant="secondary">Primary</b-button>
                 </b-col>
-                <b-col md="6" cols="6" class="p-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <b-img-lazy

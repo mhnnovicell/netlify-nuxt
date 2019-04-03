@@ -1,3 +1,7 @@
+// Include Bootstrap and BootstrapVue SCSS files
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+
 h1,
 h2,
 h3,
@@ -42,6 +46,28 @@ $secondary: #2bf4a1;
 }
 
 
-// Include Bootstrap and BootstrapVue SCSS files
-@import '~bootstrap/scss/bootstrap.scss';
-@import '~bootstrap-vue/src/index.scss';
+
+
+
+//Bootstrap tabs
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  border-color: transparent;
+  border-bottom: 1px solid $secondary;
+  color: #333333;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid transparent;
+}
+
+.nav-item {
+  a {
+    color: $secondary;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    border-color: transparent;
+  }
+}

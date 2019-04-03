@@ -85,7 +85,7 @@ module.exports = {
   ],
 
   bootstrapVue: {
-    componentPlugins: ['Layout', 'Tabs', 'Button', 'Image'],
+    componentPlugins: ['Layout', 'Tabs', 'Button', 'Image', 'Card'],
     directivePlugins: []
   },
 

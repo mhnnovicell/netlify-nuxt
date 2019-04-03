@@ -306,7 +306,108 @@
           </b-container>
         </div>
         <div class="section">
-          <h1>Udtalelser</h1>
+          <b-container fluid>
+            <b-row>
+              <b-col cols="12" class="p-5">
+                <h1>Udtalelser</h1>
+              </b-col>
+            </b-row>
+            <div class="slide">
+              <b-row>
+                <b-col cols="6" class="p-5">
+                  <h1>Asiento</h1>
+                  <p class="font-italic">
+                    "Mikkel har rigtig god forretningsmæssig forståelse for system- og platform sammenhænge i forbindelse med
+                    digitale mediestrategier. Ligeledes har Mikkel sans for design, æstetik og funktionalitet inden for
+                    web-design. Mikkel arbejder selvstændigt og proaktivt, håndterer løbende udfordringer i et løsningsorienteret
+                    perspektiv. Mit samarbejde med Mikkel giver således kun grund til en god anbefaling"
+                  </p>
+                </b-col>
+                <b-col md="6" cols="6" class="p-5">
+                  <parallax-container>
+                    <parallax-element :parallaxStrength="1" :type="'translation'">
+                      <b-card
+                        title="Carsten Wædeled"
+                        sub-title="Asiento, CEO"
+                        img-src="~/assets/img/clients/carsten.jpg"
+                        img-alt="Carsten Wædeled"
+                        img-top
+                        tag="article"
+                        style="max-width: 20rem;"
+                        class="mb-2"
+                        align="center"
+                      >
+                        <b-button href="#" class="mt-4" variant="secondary">Go somewhere</b-button>
+                      </b-card>
+                    </parallax-element>
+                  </parallax-container>
+                </b-col>
+              </b-row>
+            </div>
+            <div class="slide">
+              <b-row>
+                <b-col cols="6" class="p-5">
+                  <h1>House of Heroes</h1>
+                  <p class="font-italic">
+                    "Mikkel har udviklet min hjemmeside www.houseofheroes.dk fra start til slut. Jeg var specielt glad for
+                    samarbejdet fordi Mikkel har øje for både det gode design og funktionaliteten. Mikkel var rigtig god til at
+                    fange mine ønsker til siden, og samtidig komme med egne forslag og input. Kommunikationen mellem os har været
+                    præget af professionalisme og respekt – og arbejdet er blevet udført inden for de aftalte tidsrammer, hvilket
+                    er noget jeg vægter højt. Jeg har været meget glad for samarbejdet og vil klart anbefale Mikkel til andre der
+                    ønsker en flot og funktionel, professionel hjemmeside."
+                  </p>
+                </b-col>
+                <b-col md="6" cols="6" class="p-5">
+                  <parallax-container>
+                    <parallax-element :parallaxStrength="1" :type="'translation'">
+                      <b-card-img-lazy
+                        src="~/assets/img/clients/inge.jpg"
+                        style="max-width: 20rem;"
+                      ></b-card-img-lazy>
+
+                      <b-card
+                        title="Inge Temple"
+                        sub-title="House of Heroes, CEO"
+                        tag="article"
+                        style="max-width: 20rem;"
+                        class="mb-2"
+                        align="center"
+                      >
+                        <b-button href="#" class="mt-4" variant="secondary">Go somewhere</b-button>
+                      </b-card>
+                    </parallax-element>
+                  </parallax-container>
+                </b-col>
+              </b-row>
+            </div>
+            <div class="slide">
+              <b-row>
+                <b-col cols="6" class="p-5">
+                  <h1>Karina Graabaek</h1>
+                  <p class="font-italic">""</p>
+                </b-col>
+                <b-col md="6" cols="6" class="p-5">
+                  <parallax-container>
+                    <parallax-element :parallaxStrength="1" :type="'translation'">
+                      <b-card
+                        title="Karina Graabaek"
+                        sub-title="Karina Graabaek, CEO"
+                        img-src="~/assets/img/clients/carsten.jpg"
+                        img-alt="Karina Graabaek"
+                        img-top
+                        tag="article"
+                        style="max-width: 20rem;"
+                        class="mb-2"
+                        align="center"
+                      >
+                        <b-button href="#" class="mt-4" variant="secondary">Go somewhere</b-button>
+                      </b-card>
+                    </parallax-element>
+                  </parallax-container>
+                </b-col>
+              </b-row>
+            </div>
+          </b-container>
         </div>
         <div class="section">
           <h1>Kontakt</h1>

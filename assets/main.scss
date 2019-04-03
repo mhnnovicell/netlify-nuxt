@@ -1,6 +1,6 @@
-// Include Bootstrap and BootstrapVue SCSS files
-@import '~bootstrap/scss/bootstrap.scss';
-@import '~bootstrap-vue/src/index.scss';
+$enable-shadows: true;
+$primary: #4a0c85;
+$secondary: #2bf4a1;
 
 h1,
 h2,
@@ -18,9 +18,7 @@ a {
   color: #333333;
 }
 
-$enable-shadows: true;
-$primary: #4a0c85;
-$secondary: #2bf4a1;
+
 
 .fp-slidesNav.fp-bottom {
   display: flex;
@@ -71,3 +69,7 @@ $secondary: #2bf4a1;
     border-color: transparent;
   }
 }
+
+// Include Bootstrap and BootstrapVue SCSS files
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';

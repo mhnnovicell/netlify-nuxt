@@ -521,7 +521,7 @@ export default {
     return {
       options: {
         menu: '#menu',
-        anchors: ['om', 'evner', 'projekter', 'udtalelser','kontakt'],
+        anchors: ['om', 'evner', 'projekter', 'udtalelser', 'kontakt'],
         sectionsColor: [
           '#F5F5F5',
           '#ffffff',

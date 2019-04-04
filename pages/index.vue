@@ -9,31 +9,29 @@
         data-centered="true"
       >
         <!-- Om side -->
-        <div class="section">
-          <b-container fluid>
-            <b-row>
-              <b-col md="4" cols="12" class="m-auto p-5">
-                <h1>Om</h1>
-                <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
-                <b-button variant="secondary">Primary</b-button>
-              </b-col>
-              <b-col md="8" cols="12" class="p-5">
-                <!-- <ImageItem
+        <div class="section container-fluid">
+          <b-row>
+            <b-col md="4" cols="12" class="m-auto p-5">
+              <h1>Om</h1>
+              <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
+              <b-button variant="secondary">Primary</b-button>
+            </b-col>
+            <b-col md="8" cols="12" class="p-5">
+              <!-- <ImageItem
                   class="article-item__image"
                   :source="'assets/img/mikkel-edited-smaller.png'"
-                />-->
-                <parallax-container>
-                  <parallax-element :parallaxStrength="-3" :type="'translation'">
-                    <b-img-lazy
-                      fluid
-                      src="~/assets/img/mikkel-edited-smaller.png"
-                      alt="Mikkel Hornbech Nielsen"
-                    />
-                  </parallax-element>
-                </parallax-container>
-              </b-col>
-            </b-row>
-          </b-container>
+              />-->
+              <parallax-container>
+                <parallax-element :parallaxStrength="-3" :type="'translation'">
+                  <b-img-lazy
+                    fluid
+                    src="~/assets/img/mikkel-edited-smaller.png"
+                    alt="Mikkel Hornbech Nielsen"
+                  />
+                </parallax-element>
+              </parallax-container>
+            </b-col>
+          </b-row>
         </div>
 
         <!-- Evner -->
@@ -231,14 +229,14 @@
               <b-row>
                 <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>BeerOClock</h1>
-                  <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
+                  <p>BeeroClock tekst</p>
                   <b-button
                     target="_blank"
                     href="https://beeroclock.nozebrahosting.dk/"
                     variant="secondary"
                   >Se mere</b-button>
                 </b-col>
-                <b-col md="6" cols="12" class="py-md-5 px-md-5">
+                <b-col md="6" cols="12" class="py-md-5 px-md-5 px-4 py-4">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <a target="_blank" href="https://beeroclock.nozebrahosting.dk/">
@@ -257,14 +255,14 @@
               <b-row>
                 <b-col cols="12" md="6" class="py-md-5 px-md-5">
                   <h1>Animal Info App</h1>
-                  <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
+                  <p>Animal Info tekst</p>
                   <b-button
                     target="_blank"
                     href="http://animal-info-app.mikkelraev.dk/"
                     variant="secondary"
                   >Se mere</b-button>
                 </b-col>
-                <b-col cols="12" md="6" class="py-md-5 px-md-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <a href="http://animal-info-app.mikkelraev.dk/" target="_blank">
@@ -286,7 +284,7 @@
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
                   <b-button target="_blank" href="http://asiento.dk/" variant="secondary">Se mere</b-button>
                 </b-col>
-                <b-col cols="12" md="6" class="py-md-5 px-md-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <a href="http://asiento.dk/" target="_blank">
@@ -300,7 +298,7 @@
 
             <div class="slide">
               <b-row>
-                <b-col cols="12" md="6" class="py-md-5 px-md-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4">
                   <h1>Raadtilskatten</h1>
                   <p>Mit navn er Mikkel Hornbech Nielsen, jeg er 26 år gammel og født og opvokset i smilets by. Jeg har en kæmpe passion for hjemmesideudvikling og grafisk design. Udover min passion elsker jeg fodbold, familie, venner, gaming og kultur. Jeg har en stor IT-viden, og er aldrig bleg for en udfordring og meget interesseret i alt nyt indenfor mit fag.</p>
                   <b-button
@@ -309,7 +307,7 @@
                     variant="secondary"
                   >Se mere</b-button>
                 </b-col>
-                <b-col cols="12" md="6" class="py-md-5 px-md-5">
+                <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4">
                   <parallax-container>
                     <parallax-element :parallaxStrength="1" :type="'translation'">
                       <a href="http://raadtilskatten.dk/" target="_blank">
@@ -328,109 +326,104 @@
         </div>
 
         <!-- Udtalelser -->
-        <div class="section">
-          <b-container fluid>
+        <div class="section container-fluid">
+          <b-row>
+            <b-col md="12" cols="12" class="py-md-5 px-md-5">
+              <h1>Udtalelser</h1>
+            </b-col>
+          </b-row>
+          <div class="slide">
             <b-row>
-              <b-col md="12" cols="12" class="py-md-5 px-md-5">
-                <h1>Udtalelser</h1>
+              <b-col cols="12" md="6" class="py-md-5 px-md-5">
+                <h1>Asiento</h1>
+                <p class="font-italic">
+                  "Mikkel har rigtig god forretningsmæssig forståelse for system- og platform sammenhænge i forbindelse med
+                  digitale mediestrategier. Ligeledes har Mikkel sans for design, æstetik og funktionalitet inden for
+                  web-design. Mikkel arbejder selvstændigt og proaktivt, håndterer løbende udfordringer i et løsningsorienteret
+                  perspektiv. Mit samarbejde med Mikkel giver således kun grund til en god anbefaling"
+                </p>
+              </b-col>
+              <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4">
+                <parallax-container>
+                  <parallax-element :parallaxStrength="1" :type="'translation'">
+                    <b-card
+                      title="Carsten Wædeled"
+                      sub-title="Asiento, CEO"
+                      img-src="~/assets/img/clients/carsten.jpg"
+                      img-alt="Carsten Wædeled"
+                      img-top
+                      tag="article"
+                      style="max-width: 20rem;"
+                      class="mb-2"
+                      align="center"
+                    >
+                      <b-button href="#" class="mt-4" variant="secondary">Go somewhere</b-button>
+                    </b-card>
+                  </parallax-element>
+                </parallax-container>
               </b-col>
             </b-row>
-            <div class="slide">
-              <b-row>
-                <b-col cols="12" md="6" class="py-md-5 px-md-5">
-                  <h1>Asiento</h1>
-                  <p class="font-italic">
-                    "Mikkel har rigtig god forretningsmæssig forståelse for system- og platform sammenhænge i forbindelse med
-                    digitale mediestrategier. Ligeledes har Mikkel sans for design, æstetik og funktionalitet inden for
-                    web-design. Mikkel arbejder selvstændigt og proaktivt, håndterer løbende udfordringer i et løsningsorienteret
-                    perspektiv. Mit samarbejde med Mikkel giver således kun grund til en god anbefaling"
-                  </p>
-                </b-col>
-                <b-col cols="12" md="6" class="py-md-5 px-md-5">
-                  <parallax-container>
-                    <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-card
-                        title="Carsten Wædeled"
-                        sub-title="Asiento, CEO"
-                        img-src="~/assets/img/clients/carsten.jpg"
-                        img-alt="Carsten Wædeled"
-                        img-top
-                        tag="article"
-                        style="max-width: 20rem;"
-                        class="mb-2"
-                        align="center"
-                      >
-                        <b-button href="#" class="mt-4" variant="secondary">Go somewhere</b-button>
-                      </b-card>
-                    </parallax-element>
-                  </parallax-container>
-                </b-col>
-              </b-row>
-            </div>
-            <div class="slide">
-              <b-row>
-                <b-col cols="12" md="6" class="py-md-5 px-md-5">
-                  <h1>House of Heroes</h1>
-                  <p class="font-italic">
-                    "Mikkel har udviklet min hjemmeside www.houseofheroes.dk fra start til slut. Jeg var specielt glad for
-                    samarbejdet fordi Mikkel har øje for både det gode design og funktionaliteten. Mikkel var rigtig god til at
-                    fange mine ønsker til siden, og samtidig komme med egne forslag og input. Kommunikationen mellem os har været
-                    præget af professionalisme og respekt – og arbejdet er blevet udført inden for de aftalte tidsrammer, hvilket
-                    er noget jeg vægter højt. Jeg har været meget glad for samarbejdet og vil klart anbefale Mikkel til andre der
-                    ønsker en flot og funktionel, professionel hjemmeside."
-                  </p>
-                </b-col>
-                <b-col cols="12" md="6" class="py-md-5 px-md-5">
-                  <parallax-container>
-                    <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-card-img-lazy
-                        src="~/assets/img/clients/inge.jpg"
-                        style="max-width: 20rem;"
-                      ></b-card-img-lazy>
-
-                      <b-card
-                        title="Inge Temple"
-                        sub-title="House of Heroes, CEO"
-                        tag="article"
-                        style="max-width: 20rem;"
-                        class="mb-2"
-                        align="center"
-                      >
-                        <b-button href="#" class="mt-4" variant="secondary">Go somewhere</b-button>
-                      </b-card>
-                    </parallax-element>
-                  </parallax-container>
-                </b-col>
-              </b-row>
-            </div>
-            <div class="slide">
-              <b-row>
-                <b-col cols="12" md="6" class="py-md-5 px-md-5">
-                  <h1>Karina Graabaek</h1>
-                  <p class="font-italic">""</p>
-                </b-col>
-                <b-col cols="12" md="6" class="py-md-5 px-md-5">
-                  <parallax-container>
-                    <parallax-element :parallaxStrength="1" :type="'translation'">
-                      <b-card
-                        title="Karina Graabaek"
-                        sub-title="Karina Graabaek, CEO"
-                        img-src="~/assets/img/clients/carsten.jpg"
-                        img-alt="Karina Graabaek"
-                        img-top
-                        tag="article"
-                        style="max-width: 20rem;"
-                        class="mb-2"
-                        align="center"
-                      >
-                        <b-button href="#" class="mt-4" variant="secondary">Go somewhere</b-button>
-                      </b-card>
-                    </parallax-element>
-                  </parallax-container>
-                </b-col>
-              </b-row>
-            </div>
-          </b-container>
+          </div>
+          <div class="slide">
+            <b-row>
+              <b-col cols="12" md="6" class="py-md-5 px-md-5">
+                <h1>House of Heroes</h1>
+                <p class="font-italic">
+                  "Mikkel har udviklet min hjemmeside www.houseofheroes.dk fra start til slut. Jeg var specielt glad for
+                  samarbejdet fordi Mikkel har øje for både det gode design og funktionaliteten. Mikkel var rigtig god til at
+                  fange mine ønsker til siden, og samtidig komme med egne forslag og input. Kommunikationen mellem os har været
+                  præget af professionalisme og respekt – og arbejdet er blevet udført inden for de aftalte tidsrammer, hvilket
+                  er noget jeg vægter højt. Jeg har været meget glad for samarbejdet og vil klart anbefale Mikkel til andre der
+                  ønsker en flot og funktionel, professionel hjemmeside."
+                </p>
+              </b-col>
+              <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4">
+                <parallax-container>
+                  <parallax-element :parallaxStrength="1" :type="'translation'">
+                    <b-card
+                      title="Inge Temple"
+                      sub-title="House of Heroes, CEO"
+                      img-src="~/assets/img/clients/inge.jpg"
+                      img-alt="Inge Temple"
+                      img-top
+                      tag="article"
+                      style="max-width: 20rem;"
+                      class="mb-2"
+                      align="center"
+                    >
+                      <b-button href="#" class="mt-4" variant="secondary">Go somewhere</b-button>
+                    </b-card>
+                  </parallax-element>
+                </parallax-container>
+              </b-col>
+            </b-row>
+          </div>
+          <div class="slide">
+            <b-row>
+              <b-col cols="12" md="6" class="py-md-5 px-md-5">
+                <h1>Karina Graabaek</h1>
+                <p class="font-italic">""</p>
+              </b-col>
+              <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4">
+                <parallax-container>
+                  <parallax-element :parallaxStrength="1" :type="'translation'">
+                    <b-card
+                      title="Karina Graabaek"
+                      sub-title="Karina Graabaek, CEO"
+                      img-src="~/assets/img/clients/carsten.jpg"
+                      img-alt="Karina Graabaek"
+                      img-top
+                      tag="article"
+                      class="mb-2 w-100"
+                      align="center"
+                    >
+                      <b-button href="#" class="mt-4" variant="secondary">Go somewhere</b-button>
+                    </b-card>
+                  </parallax-element>
+                </parallax-container>
+              </b-col>
+            </b-row>
+          </div>
         </div>
 
         <!-- Kontakt -->

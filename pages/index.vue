@@ -343,7 +343,7 @@
                   perspektiv. Mit samarbejde med Mikkel giver således kun grund til en god anbefaling"
                 </p>
               </b-col>
-              <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4">
+              <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4 d-none d-sm-flex">
                 <parallax-container>
                   <parallax-element :parallaxStrength="1" :type="'translation'">
                     <b-card
@@ -377,7 +377,7 @@
                   ønsker en flot og funktionel, professionel hjemmeside."
                 </p>
               </b-col>
-              <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4">
+              <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4 d-none d-sm-flex">
                 <parallax-container>
                   <parallax-element :parallaxStrength="1" :type="'translation'">
                     <b-card
@@ -387,7 +387,7 @@
                       img-alt="Inge Temple"
                       img-top
                       tag="article"
-                      style="max-width: 20rem;"
+                      style="max-width: 50vw;"
                       class="mb-2"
                       align="center"
                     >
@@ -404,7 +404,7 @@
                 <h1>Karina Graabaek</h1>
                 <p class="font-italic">""</p>
               </b-col>
-              <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4">
+              <b-col cols="12" md="6" class="py-md-5 px-md-5 px-4 py-4 d-none d-sm-flex">
                 <parallax-container>
                   <parallax-element :parallaxStrength="1" :type="'translation'">
                     <b-card

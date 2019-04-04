@@ -31,7 +31,7 @@ module.exports = {
     link: [{
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/logo/favicon.ico'
+        href: '/favicon.ico'
       },
       {
         rel: 'prefetch',
@@ -94,23 +94,23 @@ module.exports = {
     lang: 'da',
     short_name: 'MIKKELRAEV',
     icons: [{
-        src: "/logo/android-chrome-144x144.png",
+        src: "/android-chrome-144x144.png",
         sizes: "144x144",
         type: "image/png"
 
       },
       {
-        src: "/logo/android-chrome-144x144.png",
+        src: "/android-chrome-144x144.png",
         sizes: "192x192",
         type: "image/png"
       },
       {
-        src: "/logo/android-chrome-144x144.png",
+        src: "/android-chrome-144x144.png",
         sizes: "384x384",
         type: "image/png"
       },
       {
-        src: "/logo/android-chrome-144x144.png",
+        src: "/android-chrome-144x144.png",
         sizes: "512x512",
         type: "image/png"
       }

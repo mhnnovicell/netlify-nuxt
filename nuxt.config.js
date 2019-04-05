@@ -168,14 +168,17 @@ module.exports = {
     },
 
     analyze: true,
-    optimizeCSS: true,
-    minimize: true,
-    splitChunks: {
-      chunks: 'all',
-      automaticNameDelimiter: '.',
-      name: undefined,
-      cacheGroups: {}
+    optimization: {
+      minimize: true,
+      splitChunks: {
+        chunks: 'all',
+        automaticNameDelimiter: '.',
+        name: undefined,
+        cacheGroups: {}
+      },
+
     },
+
     transpile: [/^vue2-google-maps($|\/)/]
 
 
